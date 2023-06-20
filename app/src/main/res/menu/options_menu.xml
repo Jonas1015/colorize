@@ -12,18 +12,20 @@
         android:id="@+id/color"
         android:title="Color"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/red"
-        android:checkable="true"
-        android:title="Red" />
-    <item
-        android:id="@+id/green"
-        android:checkable="true"
-        android:title="Green" />
-    <item
-        android:id="@+id/blue"
-        android:checkable="true"
-        android:title="Blue" />
+    <group android:id="@+id/colorGroup">
+        <item
+            android:id="@+id/red"
+            android:checkable="true"
+            android:title="Red" />
+        <item
+            android:id="@+id/green"
+            android:checkable="true"
+            android:title="Green" />
+        <item
+            android:id="@+id/blue"
+            android:checkable="true"
+            android:title="Blue" />
+    </group>
     <item
         android:id="@+id/reset"
         android:title="Reset" />
